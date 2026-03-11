@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gold: #E8C840;
+  --gold-dark: #C9A800;
+  --gold-light: #FFF3A3;
+  --burgundy: #722F37;
+  --burgundy-light: #8B3A42;
+  --charcoal: #1C1614;
+  --linen: #FAF7F0;
+  --stone: #F2EDE3;
+  --warm-black: #1A1208;
+  --warm-muted: #6B5E4B;
+  --off-white: #FAFAF5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--warm-black);
+  background: var(--linen);
+  font-family: var(--font-dm-sans), system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--gold);
+  color: var(--charcoal);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
