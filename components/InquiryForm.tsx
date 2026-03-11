@@ -13,7 +13,7 @@ import {
   budgetOptions,
 } from "@/lib/schema";
 
-const FORMSPREE_URL = "https://formspree.io/f/REPLACE_WITH_YOUR_ID";
+const FORMSPREE_URL = "https://formspree.io/f/mnjgdgvo";
 
 export default function InquiryForm() {
   const [submitStatus, setSubmitStatus] = useState<
