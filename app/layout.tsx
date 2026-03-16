@@ -16,7 +16,7 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://southfloridacaterers.com"
+    process.env.NEXT_PUBLIC_SITE_URL || "https://sflcaterers.com"
   ),
   title: "South Florida Caterers | Le Cordon Bleu Trained Catering",
   description:
