@@ -15,6 +15,9 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL || "https://southfloridacaterers.com"
+  ),
   title: "South Florida Caterers | Le Cordon Bleu Trained Catering",
   description:
     "Elevating every occasion with culinary excellence. Le Cordon Bleu trained chef serving South Florida since 2013. Weddings, corporate events, private gatherings.",
@@ -35,7 +38,6 @@ export const metadata: Metadata = {
       "Elevating every occasion with culinary excellence. Le Cordon Bleu trained chef serving South Florida since 2013.",
     type: "website",
     locale: "en_US",
-    images: ["/og-image.jpg"],
   },
 };
 
