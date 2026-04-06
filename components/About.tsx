@@ -24,10 +24,10 @@ export default function About() {
           >
             <div className="aspect-[4/5] rounded-lg overflow-hidden border border-warm-muted/20 relative">
               <Image
-                src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&h=1000&fit=crop&q=80"
-                alt="Chef preparing Southern comfort dishes in the kitchen"
+                src="/chef-mascot.jpeg"
+                alt="South Florida Caterers chef mascot"
                 fill
-                className="object-cover"
+                className="object-contain bg-stone"
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
             </div>

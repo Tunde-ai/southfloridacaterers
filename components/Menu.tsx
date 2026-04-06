@@ -95,8 +95,7 @@ const aLaCarteItems: MenuItem[] = [
     halfPrice: 45,
     fullPrice: 80,
     serves: { half: "12–15 guests", full: "25–30 guests" },
-    image:
-      "https://images.unsplash.com/photo-1509358271058-aed76649a8a4?w=600&h=400&fit=crop",
+    image: "/candied-yams.jpg",
   },
   {
     id: "yellow-rice",
