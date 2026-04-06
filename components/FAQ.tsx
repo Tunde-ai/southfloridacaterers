@@ -12,7 +12,7 @@ const faqs = [
   {
     question: "How much food do I need for my headcount?",
     answer:
-      "As a general guide, 2 pans of brown stew chicken feeds approximately 25–30 guests. For events with 80+ guests, we recommend submitting an inquiry so we can build a custom menu plan tailored to your event.",
+      "As a general guide, 2 pans of smothered chicken feeds approximately 25–30 guests. For events with 80+ guests, we recommend submitting an inquiry so we can build a custom menu plan tailored to your event.",
   },
   {
     question: "What's the difference between drop-off and full service?",

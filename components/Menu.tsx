@@ -26,46 +26,33 @@ type QuoteItem = {
 
 const aLaCarteItems: MenuItem[] = [
   {
-    id: "jerk-chicken",
+    id: "smothered-chicken",
     category: "Protein",
-    name: "Jerk Chicken",
+    name: "Smothered Chicken",
     description:
-      "Marinated overnight in our signature jerk blend with allspice, thyme, and Scotch bonnet peppers. Slow-grilled to perfection.",
+      "Tender chicken slow-cooked in a rich onion and garlic gravy until it falls off the bone. Southern comfort at its finest.",
     halfPrice: 75,
     fullPrice: 140,
     serves: { half: "12–15 guests", full: "25–30 guests" },
     image:
-      "https://images.unsplash.com/photo-1532550907401-a500c9a57435?w=600&h=400&fit=crop",
-  },
-  {
-    id: "brown-stew",
-    category: "Protein",
-    name: "Brown Stew Chicken",
-    description:
-      "Tender chicken braised in a rich, savory brown gravy with herbs and spices. A Caribbean comfort classic.",
-    halfPrice: 70,
-    fullPrice: 130,
-    serves: { half: "12–15 guests", full: "25–30 guests" },
-    image:
       "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=600&h=400&fit=crop",
-    note: "2 pans brown stew chicken ≈ 25–30 guests",
   },
   {
-    id: "chicken-breast",
+    id: "fried-chicken",
     category: "Protein",
-    name: "Chicken Breast",
+    name: "Southern Fried Chicken",
     description:
-      "Seasoned and pan-seared chicken breast served with your choice of sauce. Elegant and versatile.",
+      "Crispy, golden-fried chicken seasoned with our signature spice blend. A crowd favorite with a bold flavor twist.",
     halfPrice: 80,
     fullPrice: 150,
-    serves: { half: "10–12 guests", full: "20–25 guests" },
+    serves: { half: "12–15 guests", full: "25–30 guests" },
     image:
-      "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=600&h=400&fit=crop",
   },
   {
     id: "roast-beef",
     category: "Protein",
-    name: "Roast Beef",
+    name: "Slow-Roasted Beef",
     description:
       "Slow-roasted beef with a savory herb crust, sliced to your preferred doneness. A showstopper for any event.",
     halfPrice: 110,
@@ -76,28 +63,52 @@ const aLaCarteItems: MenuItem[] = [
     note: "Specify doneness in order notes (medium / medium-well / well-done)",
   },
   {
-    id: "rice-peas",
+    id: "baked-mac",
     category: "Side",
-    name: "Rice & Peas",
+    name: "Baked Mac & Cheese",
     description:
-      "Fragrant coconut rice cooked with kidney beans, thyme, and allspice. The perfect Caribbean accompaniment.",
+      "Creamy, three-cheese baked macaroni with a golden crust on top. Made from scratch, just like grandma used to make.",
+    halfPrice: 50,
+    fullPrice: 90,
+    serves: { half: "12–15 guests", full: "25–30 guests" },
+    image:
+      "https://images.unsplash.com/photo-1543339494-b4cd4f7ba686?w=600&h=400&fit=crop",
+  },
+  {
+    id: "collard-greens",
+    category: "Side",
+    name: "Collard Greens",
+    description:
+      "Slow-simmered collard greens with smoked turkey, seasoned to perfection. A Southern staple on every plate.",
+    halfPrice: 45,
+    fullPrice: 80,
+    serves: { half: "12–15 guests", full: "25–30 guests" },
+    image:
+      "https://images.unsplash.com/photo-1574484284002-952d92456975?w=600&h=400&fit=crop",
+  },
+  {
+    id: "candied-yams",
+    category: "Side",
+    name: "Candied Yams",
+    description:
+      "Sweet potatoes baked with brown sugar, cinnamon, and butter until caramelized. A sweet and savory crowd-pleaser.",
+    halfPrice: 45,
+    fullPrice: 80,
+    serves: { half: "12–15 guests", full: "25–30 guests" },
+    image:
+      "https://images.unsplash.com/photo-1509358271058-aed76649a8a4?w=600&h=400&fit=crop",
+  },
+  {
+    id: "yellow-rice",
+    category: "Side",
+    name: "Seasoned Yellow Rice",
+    description:
+      "Fluffy yellow rice cooked with garlic, onion, and our house seasoning blend. The perfect base for any plate.",
     halfPrice: 45,
     fullPrice: 80,
     serves: { half: "12–15 guests", full: "25–30 guests" },
     image:
       "https://images.unsplash.com/photo-1536304929831-ee1ca9d44906?w=600&h=400&fit=crop",
-  },
-  {
-    id: "seasonal-veg",
-    category: "Side",
-    name: "Seasonal Vegetables",
-    description:
-      "Fresh market vegetables sautéed with garlic and herbs. Light, colorful, and full of flavor.",
-    halfPrice: 45,
-    fullPrice: 80,
-    serves: { half: "12–15 guests", full: "25–30 guests" },
-    image:
-      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&h=400&fit=crop",
   },
 ];
 

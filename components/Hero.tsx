@@ -8,7 +8,7 @@ const badges = [
   { icon: "🏢", label: "Corporate" },
   { icon: "🎉", label: "All Events" },
   { icon: "🚗", label: "Delivery" },
-  { icon: "👨‍🍳", label: "Le Cordon Bleu" },
+  { icon: "👩‍🍳", label: "30+ Years Cooking" },
 ];
 
 export default function Hero() {
@@ -16,8 +16,8 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background image */}
       <Image
-        src="https://images.unsplash.com/photo-1555244162-803834f70033?w=1920&h=1080&fit=crop&q=80"
-        alt="Elegant catering spread"
+        src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1920&h=1080&fit=crop&q=80"
+        alt="Southern comfort food catering spread"
         fill
         className="object-cover"
         priority
@@ -35,7 +35,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="inline-block text-gold font-body text-sm sm:text-base tracking-[0.2em] uppercase mb-6"
         >
-          Le Cordon Bleu Trained &middot; Est. 2013
+          Southern Comfort with a Flavor Twist &middot; Est. 2013
         </motion.span>
 
         <motion.h1
@@ -55,8 +55,8 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="text-lg sm:text-xl text-linen/70 max-w-2xl mx-auto mb-10 font-body"
         >
-          Le Cordon Bleu trained chef bringing over a decade of Caribbean and
-          American culinary artistry to your most important moments across South
+          Over 30 years of kitchen love — bringing Southern comfort classics
+          with a bold flavor twist to your most important moments across South
           Florida.
         </motion.p>
 

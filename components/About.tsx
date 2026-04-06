@@ -4,9 +4,9 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const badges = [
-  { label: "Le Cordon Bleu", sub: "Trained" },
-  { label: "Est. 2013", sub: "10+ Years" },
-  { label: "South Florida", sub: "Native" },
+  { label: "30+ Years", sub: "In the Kitchen" },
+  { label: "Est. 2013", sub: "Catering Business" },
+  { label: "South Florida", sub: "Born & Raised" },
 ];
 
 export default function About() {
@@ -24,8 +24,8 @@ export default function About() {
           >
             <div className="aspect-[4/5] rounded-lg overflow-hidden border border-warm-muted/20 relative">
               <Image
-                src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=800&h=1000&fit=crop&q=80"
-                alt="Professional chef preparing a dish in the kitchen"
+                src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&h=1000&fit=crop&q=80"
+                alt="Chef preparing Southern comfort dishes in the kitchen"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -59,17 +59,19 @@ export default function About() {
             </blockquote>
 
             <p className="text-warm-muted leading-relaxed mb-6">
-              Founded in 2013, South Florida Caterers brings Le Cordon Bleu
-              training and a lifetime of culinary passion to every plate.
-              Specializing in Caribbean and American cuisine, we serve weddings,
-              corporate events, memorial services, and private gatherings across
-              Broward County, Miami-Dade, and beyond.
+              Founded in 2013, South Florida Caterers is built on over 30 years
+              of real kitchen experience — not a classroom, but a lifetime of
+              cooking for family, friends, and community. We specialize in
+              Southern comfort American dishes with a bold flavor twist, serving
+              weddings, corporate events, memorial services, and private
+              gatherings across Broward County, Miami-Dade, and beyond.
             </p>
 
             <p className="text-warm-muted leading-relaxed mb-8">
-              What started as a calling at age six has grown into a decade-long
-              mission: to elevate every occasion through food that connects
-              people and touches hearts. Every dish tells a story — yours.
+              What started as a little girl learning at her grandmother&apos;s
+              stove has grown into a catering business that feeds hundreds. Every
+              plate is made with the same love and care as a home-cooked Sunday
+              dinner — because that&apos;s exactly where it all started.
             </p>
 
             {/* Badges */}
