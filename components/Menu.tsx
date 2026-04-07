@@ -83,8 +83,7 @@ const aLaCarteItems: MenuItem[] = [
     halfPrice: 45,
     fullPrice: 80,
     serves: { half: "12–15 guests", full: "25–30 guests" },
-    image:
-      "https://images.unsplash.com/photo-1574484284002-952d92456975?w=600&h=400&fit=crop",
+    image: "/collard-greens.jpg",
   },
   {
     id: "candied-yams",
@@ -106,8 +105,7 @@ const aLaCarteItems: MenuItem[] = [
     halfPrice: 45,
     fullPrice: 80,
     serves: { half: "12–15 guests", full: "25–30 guests" },
-    image:
-      "https://images.unsplash.com/photo-1536304929831-ee1ca9d44906?w=600&h=400&fit=crop",
+    image: "/yellow-rice.jpg",
   },
 ];
 
